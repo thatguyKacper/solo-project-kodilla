@@ -1,0 +1,55 @@
+input[type=text] {
+  padding: 0.5em;
+  border-radius: 4px;
+  border: 1px solid $color-grey-disabled;
+  cursor: pointer;
+  font-size: inherit;
+  &:hover {
+    border: 1px solid $color-grey;
+  }
+}
+
+::placeholder {
+  color: $color-black;
+}
+
+.lbl-input-icon {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ipt-icon {
+  padding-left: 3em !important;
+}
+
+.svg-input {
+  fill: $color-grey-disabled;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+
+.ipt-icon-bad {
+  border: 2px solid $color-red !important;
+  padding-left: 3em !important;
+}
+
+.svg-input-bad {
+  fill: $color-black;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+}
+
+textarea {
+  width: 6em;
+  height: 4em;
+  padding: 0.5em 1em;
+  border: 1px solid $color-grey-disabled;
+  border-radius: 4px;
+  resize: none;
+  cursor: pointer;
+  &:hover {
+    border: 1px solid $color-grey;
+  }
+}

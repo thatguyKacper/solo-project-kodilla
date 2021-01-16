@@ -1,0 +1,22 @@
+.tab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  color: $color-grey;
+  background-color: transparent;
+  &:hover {
+    background-color: $color-grey-text;
+  }
+}
+
+.dot {
+  height: 0.5em;
+  width: 0.5em;
+  background-color: $color-blue;
+  border-radius: 50%;
+}

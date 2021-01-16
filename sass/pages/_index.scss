@@ -1,0 +1,98 @@
+/* General */
+.index {
+  background-color: $color-grey-text;
+}
+
+.nav-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: $color-grey-hover;
+  display: flex;
+  &:hover {
+    color: $color-grey-text;
+  }
+}
+
+ /* Top NAvigation */;
+.nav-top {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  right: 0;
+}
+
+.nav-top ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-top li {
+  &:hover {
+    background-color: $color-grey-text;
+  }
+}
+
+.btn-icon-arrow {
+  border: none;
+}
+
+.nav-p {
+  color: $color-blue;
+}
+
+/* Left Navigation */ 
+.nav-aside {
+  position: fixed;
+  height: 100%;
+  background-color: $color-black;
+}
+
+.logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 1em;
+}
+
+.logo {
+  color: $color-grey-text;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+.logo-icon {
+  cursor: pointer;
+  margin-left: 1em;
+}
+
+.logo-icon-bar {
+  width: 20px;
+  height: 2px;
+  background-color: $color-grey-hover;
+  margin: 5px 0;
+}
+
+.nav-aside ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-icon, .btn-icon-arrow{
+  border-right: none;
+  &:hover {
+    background-color: $color-grey-text;
+  }
+}
+
+.nav-aside li {
+  &:hover {
+    background-color: $color-grey;
+    border-left: 5px solid $color-orange;
+  }
+}

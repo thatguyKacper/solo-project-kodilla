@@ -1,0 +1,23 @@
+.notifi-good {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  color: white;
+  background-color: $color-green-disabled;
+  &:hover {
+    background-color: $color-green-hover;
+  }
+}
+
+.notifi-bad {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  color: white;
+  background-color: $color-coral-hover;
+  &:hover {
+    background-color: $color-coral;
+  }
+}

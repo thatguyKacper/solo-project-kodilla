@@ -1,0 +1,41 @@
+.table {
+  display: block;
+  padding: 0.5em 1em;
+  color: $color-grey;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  &:hover {
+    background-color: $color-grey-text;
+    border-top: solid 1px $color-grey-disabled;
+    border-bottom: solid 1px $color-grey-disabled;
+  }
+}
+
+.table-link {
+  text-decoration: none;
+  color: $color-blue;
+  font-weight: lighter;
+}
+
+.table-simple {
+  display: block;
+  padding: 0.5em 1em;
+  color: $color-black;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  width: 300px;
+  &:hover {
+    background-color: $color-grey-text;
+    border-top: solid 1px $color-grey-disabled;
+    border-bottom: solid 1px $color-grey-disabled;
+  }
+}
+
+.table-p {
+  flex-grow: 2;
+}
